@@ -1,8 +1,11 @@
 # Flight Search for Lastminute Test
 
+[![Build Status](https://travis-ci.com/vitongos/lastminute-flight-search.svg?branch=master)](https://travis-ci.com/vitongos/lastminute-flight-search)
+
 Solution for the problem. Original text [HERE](TEXT.md).
 
 Run examples:
+
 ```bash
 # search flights from IST to LHR - 2 adults, 1 child - June 1st, 2019
 java com.lastminute.flightsearch.FlightSearchApplication IST LHR 2019-06-01 2 1 0
