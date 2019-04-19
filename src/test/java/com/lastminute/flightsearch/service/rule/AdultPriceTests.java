@@ -14,7 +14,7 @@ public class AdultPriceTests {
     public static void initAdultPrice() {
         adultPriceRule = new AdultPrice(0);
     }
-	
+    
     @Test
     public void someAdultsSuccess() {
         adultPriceRule.setPeopleCount(2);

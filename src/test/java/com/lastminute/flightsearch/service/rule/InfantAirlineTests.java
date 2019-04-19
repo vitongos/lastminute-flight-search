@@ -14,7 +14,7 @@ public class InfantAirlineTests {
     public static void initInfantAirline() {
         infantAirlineRule = new InfantAirline(0);
     }
-	
+    
     @Test
     public void someAdultsSuccess() {
         infantAirlineRule.setPeopleCount(2);

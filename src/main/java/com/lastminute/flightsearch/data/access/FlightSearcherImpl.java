@@ -56,13 +56,13 @@ public class FlightSearcherImpl implements FlightSearcher {
     }
 
     @Override
-	public List<Flight> search(String origin, String destination) {
+    public List<Flight> search(String origin, String destination) {
         return flights
             .stream()
             .filter(flight -> flight.getOrigin().equals(origin)
                     && flight.getDestination().equals(destination))
             .collect(Collectors.toList()); 
-	}
+    }
 }
 
     

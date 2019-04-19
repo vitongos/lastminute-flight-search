@@ -14,7 +14,7 @@ public class ChildPriceTests {
     public static void initChildPrice() {
         childPriceRule = new ChildPrice(0);
     }
-	
+    
     @Test
     public void someChildren1Success() {
         childPriceRule.setPeopleCount(2);
